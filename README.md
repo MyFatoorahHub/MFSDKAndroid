@@ -16,14 +16,14 @@ You will need a [My Fatoorah](https://myfatoorah.com) account.
 
 The Copy dialog box appears.
 
-![Screenshot](https://github.com/MyFatoorahHub/MFSDK/blob/master/Setp%201.png)
+![Screenshot](https://github.com/MyFatoorahHub/MFSDKAndroid/blob/master/01.png)
 
 4.If necessary, change the name. Click OK.
 
 The Aar file is added to the project.
 5. In Android Studio, open the app's build.gradle file in the editor.
 
-![Screenshot](https://github.com/MyFatoorahHub/MFSDK/blob/master/Setp%202.png)
+![Screenshot](https://github.com/MyFatoorahHub/MFSDKAndroid/blob/master/02.png)
 
 
 6. As shown above, add in the repositories section.
@@ -40,7 +40,7 @@ The Aar file is added to the project.
 
 Now the classes and methods in the Android archive file can be used in your app, as shown in the example below.
 
-![Screenshot](https://github.com/MyFatoorahHub/MFSDK/blob/master/Setp%203.png)
+![Screenshot](https://github.com/MyFatoorahHub/MFSDKAndroid/blob/master/03.png)
 
 
 # Test Cards Details
@@ -69,7 +69,8 @@ Now the classes and methods in the Android archive file can be used in your app,
     
  # Requirements
 
-- Android Studio Version 
-- Android 9.0+ target deployment
+- Android Studio Version  3.0.1
+- MinSDK Version 15
+- Target SDK Version 26
 - phone and Tablet of all sizes and resolutions
  
