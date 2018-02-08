@@ -28,14 +28,15 @@ The Aar file is added to the project.
 
 6. As shown above, add in the repositories section.
 
-repositories {
-flatDir {
-dirs 'libs'
-}
+      repositories {
+                flatDir {
+                       dirs 'libs'
+                        }
+                   }
 
 7. Add in the following line to the dependencies section.
 
-compile (name: 'myaarlibrary-release', ext:'aar')
+     compile (name: 'myaarlibrary-release', ext:'aar')
 
 Now the classes and methods in the Android archive file can be used in your app, as shown in the example below.
 
